@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>test_pg2</name>
     <description>Test Prometheus and Grafana</description>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>11</java.version>
