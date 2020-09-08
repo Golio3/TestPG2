@@ -68,11 +68,6 @@
                 <finalName>Tets_pg2</finalName>
                 <plugins>
                     <plugin>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-maven-plugin</artifactId>
-                    </plugin>
-
-                    <plugin>
                         <artifactId>maven-war-plugin</artifactId>
                         <version>2.1.1</version>
                         <configuration>
@@ -80,16 +75,6 @@
                             <outputDirectory>deployments</outputDirectory>
                             <warName>ROOT</warName>
                         </configuration>
-                        <executions>
-                            <execution>
-                                <configuration>
-                                    <classifier>spring-boot</classifier>
-                                    <mainClass>
-                                        com.example.demo.TestPg2Application
-                                    </mainClass>
-                                </configuration>
-                            </execution>
-                        </executions>
                     </plugin>
                 </plugins>
             </build>
