@@ -17,7 +17,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <start-class>com.example.demo.TestPg2Application</start-class>
     </properties>
 
     <dependencies>
@@ -72,7 +71,7 @@
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-maven-plugin</artifactId>
                     </plugin>
-                    
+
                     <plugin>
                         <artifactId>maven-war-plugin</artifactId>
                         <version>2.1.1</version>
