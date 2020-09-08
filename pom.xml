@@ -75,6 +75,16 @@
                             <outputDirectory>deployments</outputDirectory>
                             <warName>ROOT</warName>
                         </configuration>
+                        <executions>
+                            <execution>
+                                <configuration>
+                                    <classifier>spring-boot</classifier>
+                                    <mainClass>
+                                        com.example.demo.TestPg2Application
+                                    </mainClass>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
